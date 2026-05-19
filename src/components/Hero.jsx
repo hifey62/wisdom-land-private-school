@@ -198,8 +198,8 @@ export default function Hero() {
           onClick={() => go(dir)}
           aria-label={dir === -1 ? 'Previous slide' : 'Next slide'}
           style={{
-            position: 'absolute', [side]: 20, top: '50%', transform: 'translateY(-50%)',
-            width: 46, height: 46, borderRadius: '50%',
+            position: 'absolute', [side]: 0, top: '50%', transform: 'translateY(-50%)',
+            width: 44, height: 44, borderRadius: '50%',
             background: 'rgba(255,255,255,0.1)', backdropFilter: 'blur(6px)',
             border: '1px solid rgba(201,168,76,0.35)', color: 'white', cursor: 'pointer',
             display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 4,
